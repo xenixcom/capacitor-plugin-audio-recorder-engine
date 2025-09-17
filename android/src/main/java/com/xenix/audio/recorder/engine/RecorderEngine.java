@@ -5,7 +5,8 @@ import com.getcapacitor.Logger;
 public class RecorderEngine {
 
     public String echo(String value) {
-        Logger.info("Echo", value);
-        return value;
+        String result = value + " from Android";
+        Logger.info("Echo:", value);
+        return result;
     }
 }
